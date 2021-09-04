@@ -26,7 +26,7 @@ Follow the prompts on the page to select desired characters for your password ge
 
     * When user hits generate password button, it will prompt the user to input how long their password should be (min 8, max 128) 
         <!-- it would be a prompt (textbox) -->
-        <!-- alert for informing user of error, if below 8 or over 128 characters, and alter for it they dont select any of the confirm buttons  -->
+        <!-- alert for informing user of error, if below 8 or over 128 characters, and alert for if they dont select any of the confirm buttons  -->
     * This will be followed by a series of prompts *note: the user must select atleast one prompt in order for the password generator to work, if that does not occur, an error message with "you must select atleast one of the following" and then repeat the prompts* 
         <!-- confirm button -->
         <!-- how to confirm that your password will use aall that is selected  -->
