@@ -3,7 +3,6 @@ var lowercase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p"
 var uppercase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 var symbol = ["!","@","#","$","%","^","&","*","(",")","{","}","[","]","","<",">","/",",","."]
 var number = ["0","1","2","3","4","5","6","7","8","9"];
-console.log (symbol.length);
 
 var allCharacters = [...lowercase, ...uppercase, ...symbol, ...number]; //creates an object that includes all the arrays above 
 var confirmed = false; // when user doesn't meet two conditions 
@@ -39,10 +38,11 @@ function generatePassword() {
     }
     if (confirmNumeric) {
       password.push(number[Math.floor(Math.random() * 10)]);
+    }
     if (confirmSymbol) {
       password.push(symbol[Math.floor(Math.random() * 20)]);
     }
-    };
+    }
   };
   console.log(password);
   return password.join("");
@@ -50,11 +50,12 @@ function generatePassword() {
 
 // controls prompts/ alerts for user input 
 function userInput() {
+  passwordLength = 0;
   passwordLength = parseInt(prompt("How many characters would you like your password to be?"));
   if (!passwordLength) {
     alert("Error: value is required");
 
-  } else if (passwordLength <= 8 || passwordLength >= 128) {
+  } else if (passwordLength < 7 || passwordLength > 127) {
     passwordLength = parseInt(prompt("Error: you must choose between 8 and 128 characters"));
 
   } else {
