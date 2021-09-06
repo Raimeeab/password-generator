@@ -12,6 +12,7 @@
 - My motivation is to create a password generator using JavaScript and the existing CSS/ HTML code provided
 - The aim of this porject is to allow the user to select their preference of what characters they would like to use (Uppercase/ Lowercase letters, numbers and symbols)
 - The current code does not display alerts, prompts for the user to select desired characters, nor does it have a working function for a password generator. 
+- I learned how to use JavaScript variables, arrays, functions and loops to make dynamic changes to the HTML
 
 Link to the [site](https://raimeeab.github.io/password-generator/)
 
@@ -20,17 +21,6 @@ HTML, Advanced CSS and basic JavaScript.
 
 ## Usage 
 Follow the prompts on the page to select desired characters for your password generator, then click generate button to get your password. 
-
-## Logic: 
-BEGIN 
-
-    * When user hits generate password button, it will prompt the user to input how long their password should be (min 8, max 128) 
-    * This will be followed by a series of confirms 
-        * "Do you want <special character> in your generated password?"  (OK || Cancel) x4
-        * If user does not select atleast one of the options, an error message will appear and loop the confirms until criteria is met 
-    * When all all prompts are answered, a password is generated to match criteria selected 
-    * Password is then displayed on the page
-END 
 
 ## Contributors
 *The Univserity of Sydney | Trilogy Education Services*
