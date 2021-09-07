@@ -7,7 +7,7 @@ var number = ["0","1","2","3","4","5","6","7","8","9"];
 //user input variables
 var passwordLength, confirmUpper, confirmLower, confirmNumeric, confirmSymbol; 
 
-// selects the generate ID from CSS stylesheet 
+// selects the generate ID from HTML  
 var generateBtn = document.querySelector("#generate");
 
 // Add event listener to generate button
@@ -38,7 +38,7 @@ function generatePassword() {
   // Start random selection for passwordLength, based on selected options
   for (var i = 0; i < passwordLength; i++) {
     password += available[Math.floor(Math.random() * available.length)];  
-  };
+  }; 
   
   return password;   // returns password onto the screen
 };
