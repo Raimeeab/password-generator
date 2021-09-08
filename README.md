@@ -22,6 +22,9 @@ HTML, Advanced CSS and basic JavaScript.
 ## Usage 
 Follow the prompts on the page to select desired characters for your password generator, then click generate button to get your password. 
 
+- There is a password length limitation between 8-128
+- The character options are numbers, symbols, lowercase letters and uppercase letters 
+
 ## Contributors
 *The Univserity of Sydney | Trilogy Education Services*
 *Raimee Abbassi*
