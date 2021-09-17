@@ -1,6 +1,4 @@
-<img alt="GitHub followers" src="https://img.shields.io/github/followers/Raimeeab?style=social">
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Raimeeab/password-generator?style=social">     
-<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/Raimeeab/password-generator?style=social">
+<img alt="GitHub followers" src="https://img.shields.io/github/followers/Raimeeab?style=social"><img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Raimeeab/password-generator?style=social"> <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/Raimeeab/password-generator?style=social">
 
 # Password Generator
 --- 

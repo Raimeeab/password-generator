@@ -1,0 +1,9 @@
+BEGIN 
+    * When user hits generate password button, it will prompt the user to input how long their password should be (min 8, max 128) 
+        * the prompt will loop until criteria is met by user
+    * This will be followed by a series of confirms 
+        * "Do you want <special character> in your generated password?"  (OK || Cancel) x4
+        * If user does not select atleast one of the options, an error message will appear and loop the confirms until criteria is met 
+    * When all all prompts are answered, a password is generated to match criteria selected 
+    * Password is then displayed on the page
+END 
